@@ -1,7 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section {
+    width: 50%;
+    margin: 65px auto;
+    background-color: rgb(234, 113, 27);
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.main-section .container {
+    padding: 50px 30px;
+}
+
+.main-section .container .head {
+    font-family: 'Tilt Prism', cursive;
+    color: white;
+    font-style: italic;
+    margin: 0 30%;
+}
+
+.main-section .container .head h1 {
+    font-size: 2.5em;
+}
+
+.main-section .container hr {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 55em;
+    margin-left: 8px;
+}
+
+.main-section .container .img img {
+    border: 12px solid rgb(255, 255, 255);
+    margin-left: 49px;
+    width: 90%;
+    height: auto;
+    border-radius: 35px;
+}
+
 ul.a {
     list-style-type:square ;
-  }
+}
   
-  ul.b {
-    list-style-type: lower-alpha;
-  }
+ul.b {
+  list-style-type: lower-alpha;
+}

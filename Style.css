@@ -1,4 +1,13 @@
+
+.receta {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
 
 body {
     margin: 0;
@@ -52,5 +61,6 @@ ul.a {
 ul.b {
   list-style-type: lower-alpha;
 }
+
 
 

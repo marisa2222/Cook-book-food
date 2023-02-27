@@ -7,7 +7,7 @@ body {
 }
 
 .main-section {
-    width: 50%;
+    width: 80%;
     margin: 65px auto;
     background-color: rgb(234, 113, 27);
     border: 2px solid black;
@@ -41,7 +41,7 @@ body {
     border: 12px solid rgb(255, 255, 255);
     margin-left: 49px;
     width: 90%;
-    height: auto;
+    height: 10%;
     border-radius: 35px;
 }
 
@@ -52,3 +52,5 @@ ul.a {
 ul.b {
   list-style-type: lower-alpha;
 }
+
+

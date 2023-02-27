@@ -14,22 +14,22 @@ body {
     border-radius: 30px;
 }
 
-.container {
+.main-section .container {
     padding: 50px 30px;
 }
 
-.container .head {
+.main-section .container .head {
     font-family: 'Tilt Prism', cursive;
     color: white;
     font-style: italic;
     margin: 0 30%;
 }
 
-.container .head h1 {
+.main-section .container .head h1 {
     font-size: 2.5em;
 }
 
-.container hr {
+.main-section .container hr {
     color: white;
     border: 1px solid white;
     border-radius: 5px;
@@ -37,7 +37,7 @@ body {
     margin-left: 8px;
 }
 
-.container .img img {
+.main-section .container .img img {
     border: 12px solid rgb(255, 255, 255);
     margin-left: 49px;
     width: 90%;

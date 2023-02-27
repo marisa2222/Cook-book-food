@@ -44,3 +44,11 @@ body {
     height: auto;
     border-radius: 35px;
 }
+
+ul.a {
+    list-style-type:square ;
+}
+  
+ul.b {
+  list-style-type: lower-alpha;
+}

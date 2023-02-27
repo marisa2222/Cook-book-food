@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+.receta {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
 body {
     margin: 0;

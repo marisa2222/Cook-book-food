@@ -1,4 +1,16 @@
 
+	.navbar .nav-item .dropdown-menu{ 
+        display: none; 
+    }
+	
+	.navbar .nav-item:hover .dropdown-menu{ 
+        display: block; 
+    }
+	.navbar .nav-item .dropdown-menu{ 
+        margin-top:0; 
+    }
+
+
 .receta {
     display: flex;
     justify-content:center;

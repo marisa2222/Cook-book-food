@@ -1,5 +1,6 @@
 
-	.navbar .nav-item .dropdown-menu{ 
+/*-----NavBar----*/
+    .navbar .nav-item .dropdown-menu{ 
         display: none; 
     }
 	
@@ -9,7 +10,7 @@
 	.navbar .nav-item .dropdown-menu{ 
         margin-top:0; 
     }
-
+/*-----NavBar----*/
 
 .receta {
     display: flex;

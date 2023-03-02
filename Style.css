@@ -1,4 +1,5 @@
 
+
 .receta {
     display: flex;
     justify-content:center;
@@ -54,13 +55,8 @@ body {
     border-radius: 35px;
 }
 
-ul.a {
-    list-style-type:square ;
-}
-  
-ul.b {
-  list-style-type: lower-alpha;
-}
+
+
 
 .footer-dark {
     padding:50px 0;
@@ -245,3 +241,20 @@ ul.b {
     display: flex;
     flex-direction: row;
   }
+
+
+
+.container a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20%;
+    padding: 8px 50px;
+  }
+  
+.container a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ 
+

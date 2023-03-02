@@ -7,8 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://kit.fontawesome.com/b0489869a5.css" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="index.css">
+
+
     <title>Document</title>
 
 </head>
@@ -16,48 +21,43 @@
 <body>
 
     <header>
-    
+
         <!-------- NAVBAR---------->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  
-                 
-                  <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dinners
-                        </a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">1° Recipe</a></li>
-                        <li><a class="dropdown-item" href="#">2° Recipe</a></li>
-                        <!-- <li><hr class="dropdown-divider"></li> -->
-                        <li><a class="dropdown-item" href="#">3° Recipe</a></li>
-                        </ul>
-                  </li>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid bg-primary">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/navbar-food-icon.png" alt="Happy Yummy!" height="60">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                  <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Ingredienst
-                        </a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Salat</a></li>
-                        <li><a class="dropdown-item" href="#">Cheese</a></li>
-                        <!-- <li><hr class="dropdown-divider"></li> -->
-                        <li><a class="dropdown-item" href="#">Tomatoes</a></li>
-                        </ul>
-                  </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"
+                                data-bs-theme="light">
+                                The best recipes
+                            </a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item" href="./Paella.html">Paella</a></li>
+                                <li><a class="dropdown-item" href="./burger.html">Burger</a></li>
+                                <!-- <li><hr class="dropdown-divider"></li> -->
+                                <li><a class="dropdown-item" href="./Burritos.html">Burritos</a></li>
+                                <li><a class="dropdown-item" href="./Cheesy.html">Cheesy</a></li>
+                                <li><a class="dropdown-item" href="./Chickpea.html">Chickpea</a></li>
+                                <li><a class="dropdown-item" href="./Jumbo.html">Jumbo</a></li>
+                                <li><a class="dropdown-item" href="./mornay.html">Mornay</a></li>
+                                <li><a class="dropdown-item" href="./Zucchini.html">Zucchini</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a id="navBarJs" class="nav-link active" aria-current="page" href="#">About </a>
+                        </li>
 
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
-                  </li>
+                    </ul>
 
-                </ul>
-               
-              </div>
+                </div>
             </div>
-          </nav>
-       <!-------- NAVBAR---------->
+        </nav>
+        <!-------- NAVBAR---------->
 
     </header>
 
@@ -69,44 +69,78 @@
                     <h1>Healthy tuna mornay</h1>
                 </div>
                 <hr>
-                <div class="text-center" >
-                    <img  src="img/healthy-tuna-mornay-165276-2.jpg" alt="Healthy tuna mornay" height="400px" width="85%">
+                <div class="text-center">
+                    <img src="img/healthy-tuna-mornay-165276-2.jpg" alt="Healthy tuna mornay" height="400px"
+                        width="85%">
                 </div>
             </div>
-            
+
             <div class="row mt-3">
-                <div class="col-4" >
+                <div class="col-4">
                     <h3>Ingredients</h3>
                     <ul class="a">
 
-                        <li><h3>100g rice mornay</h3></li>
-                        <li><h3>12 oz. linguine </h3></li>
-                        <li><h3>1/4 c. olive oil</h3></li>
-                        <li><h3>1 red chile, thinly sliced</h3></li>
-                        <li><h3>1/2 c. grated Parmesan cheese</h3></li>
-                       
+                        <li>
+                            <h3>100g rice mornay</h3>
+                        </li>
+                        <li>
+                            <h3>12 oz. linguine </h3>
+                        </li>
+                        <li>
+                            <h3>1/4 c. olive oil</h3>
+                        </li>
+                        <li>
+                            <h3>1 red chile, thinly sliced</h3>
+                        </li>
+                        <li>
+                            <h3>1/2 c. grated Parmesan cheese</h3>
+                        </li>
+
 
                     </ul>
                 </div>
-                <div  class="col-8">
+                <div class="col-8">
                     <h3>How To Prepare</h3>
                     <ul class="b">
-                        <li><h4>Set the slow cooker to low. Heat the oil in a frying pan over a medium heat and fry the chicken and chorizo for 7-10 mins until golden. Transfer to the slow cooker using tongs. Add the onion to the pan and fry for 5-7 mins, or until just softened. </h4></li>
-                        <li><h4>Add the smoked paprika, thyme and paella rice, stir for 1 min, then splash in the sherry, if using. Once evaporated, stir in the chopped tomatoes and chicken stock.</h4></li>
-                        <li><h4>Season and cook, uncovered, for about 15 mins, stirring now and again until the rice is almost tender and still surrounded with some liquid.</h4></li>
-                        <li><h4>Stir in the seafood mix and cover with a lid. Simmer for 5 mins, or until the seafood is cooked through and the rice is tender. Squeeze over the lemon juice.</h4></li>
-               </ul>
+                        <li>
+                            <h4>Set the slow cooker to low. Heat the oil in a frying pan over a medium heat and fry the
+                                chicken and chorizo for 7-10 mins until golden. Transfer to the slow cooker using tongs.
+                                Add the onion to the pan and fry for 5-7 mins, or until just softened. </h4>
+                        </li>
+                        <li>
+                            <h4>Add the smoked paprika, thyme and paella rice, stir for 1 min, then splash in the
+                                sherry, if using. Once evaporated, stir in the chopped tomatoes and chicken stock.</h4>
+                        </li>
+                        <li>
+                            <h4>Season and cook, uncovered, for about 15 mins, stirring now and again until the rice is
+                                almost tender and still surrounded with some liquid.</h4>
+                        </li>
+                        <li>
+                            <h4>Stir in the seafood mix and cover with a lid. Simmer for 5 mins, or until the seafood is
+                                cooked through and the rice is tender. Squeeze over the lemon juice.</h4>
+                        </li>
+                    </ul>
                 </div>
             </div>
-          </div>
-          <div class="col"></div>
-      </div>    
+            
+            <div class="col"></div>
+            <div class="navigator">
+                <a href="Paella.html" class="previous round">&#8249;</a>
+                <a href="Cheesy.html" class="previous round">&#8250;</a>
+            </div>
+            
     </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

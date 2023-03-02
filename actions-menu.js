@@ -7,3 +7,8 @@ function shareEvent(){
 document.getElementById("navBarJs").addEventListener("click", shareEvent);
 
 
+function DragEvent(){
+    alert('my alert message')
+}
+
+document.getElementById("share-button").addEventListener("click", DragEvent);

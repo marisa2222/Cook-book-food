@@ -9,6 +9,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
+body, html {
+  height: 100%;
+  background-image: url("img/backgrd.jpg");
+
+}
+
+
 
 body {
     margin: 0;
@@ -58,10 +65,11 @@ body {
 
 
 
+
 .footer-dark {
     padding:50px 0;
     color:#f0f9ff;
-    background-color:#282d32;
+    background-color:#3f45f9;
   }
   
   .footer-dark h3 {

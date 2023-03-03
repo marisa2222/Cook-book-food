@@ -10,3 +10,13 @@
     margin-top:0; 
 }
 /*-----NavBar----*/
+
+.main-display .icons {
+    width: 30vw;
+    margin-left: 20%;
+}
+
+.main-display .icons svg {
+    margin: 20px;
+    color: white;
+}
